@@ -10,7 +10,6 @@ using System.Net.Mime;
 
 namespace Payment.API.Controllers
 {
-    [AllowAnonymous]
     [Route("api/[controller]")]
     [Authorize(Roles = "Customer")]
     [ApiController]

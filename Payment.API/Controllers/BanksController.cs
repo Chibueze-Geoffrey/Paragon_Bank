@@ -13,7 +13,7 @@ namespace Payment.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     public class BanksController : ControllerBase
     {
         private readonly ISender _sender;
@@ -24,7 +24,6 @@ namespace Payment.API.Controllers
         [HttpGet("get-all-banks")]
         public async Task<IActionResult> GetAllBanks()
         {
-            //var result = await _bankService.GetAllBanksAsync();
             var result = await _sender.Send(new GetBanksQuery());
             return Ok(result);
         }
