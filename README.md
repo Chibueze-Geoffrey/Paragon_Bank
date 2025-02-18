@@ -26,7 +26,7 @@ Paragon Bank is a backend transaction management system built using the .NET sta
 - Designed for **concurrent transactions** and high scalability.
 
 ### 5. Logging, Monitoring, and Error Handling
-- **Structured logging** using **Serilog** for tracking system events.
+- **Structured logging** using **RavenDb**, **Serilog** for tracking system events.
 - **Basic monitoring** for key performance metrics.
 - **Robust error handling** to detect and manage failures effectively.
 
