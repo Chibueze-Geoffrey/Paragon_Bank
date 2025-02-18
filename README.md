@@ -15,7 +15,7 @@ Paragon Bank is a backend transaction management system built using the .NET sta
 - **Monthly Statements**: Generate transaction statements for customers.
 
 ### 2. Data Persistence and Security
-- Uses **MySQL** for relational database storage.
+- Uses **MSSQL** for relational database storage.
 - Implements **role-based access control (RBAC)** to manage permissions securely.
 - Encrypts sensitive customer information to ensure data security.
 
